@@ -20,7 +20,7 @@ body {
 .left-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
-  grid-gap: 2rem;
+  grid-gap: 4rem;
 }
 .card {
   width: 300px;
@@ -32,11 +32,9 @@ body {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
-.card img {
-  border: 5px solid #000;
-}
 .right-content {
   width: 50%;
   text-align: center;
@@ -87,4 +85,5 @@ body {
   color: white;
   background-color: #b74555;
   border-radius: 8px;
+  cursor: pointer;
 }
